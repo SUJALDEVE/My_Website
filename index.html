@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial">
+    <title>SUJAL-DEVELOPER Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,100;0,200;0,500;0,700;1,100;1,200;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100;1,200;1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            background-color: #222831;
+            margin: 0;
+            padding: 0;
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #222831;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: #222831;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: #8b43ba;
+
+        }
+
+        .left {
+            font-size: 2rem;
+            color: white;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .firstsection>div {
+            width: auto;
+            color: white;
+        }
+
+        .section {
+            width: auto;
+            font-size: 2rem;
+            margin-top: 30px;
+        }
+
+        .dark-mode {
+            background-color: white;
+            color: black;
+        }
+
+        .techstack {
+            color: white;
+            font-size: 2rem;
+            margin-left: 250px;
+        }
+
+        .lan1 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .lang {
+            display: flex;
+            gap: 20px;
+        }
+
+        .lan2 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .lan3 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .lan4 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .lan5 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+            padding-top: 7px;
+        }
+
+        .tnt {
+            display: flex;
+            gap: 10px;
+        }
+
+        .t1 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t2 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t3 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t4 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t5 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t6 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t7 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t8 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t9 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .t10 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .tnt2 {
+            display: flex;
+            gap: 10px;
+        }
+
+        .t11 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        .tnt3 {
+            display: flex;
+            gap: 10px;
+        }
+
+        .ik {
+            color: white;
+        }
+
+        .ikd {
+            display: flex;
+            gap: 20px;
+        }
+
+        .ik1 {
+            display: block;
+            width: 200px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .ik2 {
+            display: block;
+            width: 250px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .ik3 {
+            display: block;
+            width: 300px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+
+        .ik4 {
+            display: block;
+            width: 350px;
+            background-color: #27296d;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            text-align: center;
+        }
+        .left:hover{
+            color: #8b43ba;
+        }
+        ul li{
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><img src="./Screenshot 2023-12-02 at 2.36.31 PM.png" alt=""
+                    style="height: 90px; width: 110px; padding-top: 7px; padding-bottom: 7px;"> Sujal Kumar Agarwal
+            </div>
+            <ul>
+                <li><a href="./index.html">HOME</li></a>
+                <li><a href="./about.html">ABOUT</li></a>
+                <li> <a href="">SKILLS</li></a>
+                <li><a href="">PROJECTS</li></a>
+                <li><a href="">CONTACT ME</LI></a>
+                <li><button onclick="myFunction" style="color: white;">🔆Light/Dark Mode</button></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="section" ><img src="./8dd40490-91b7-439b-b216-5fd4f259d716.jpg" alt="image"
+                    style="border-radius: 50%; height: 300px; margin-left: 200px; width: 300px;"><br>
+                <div style="display: block; height: 40px;"></div>Hi! My name is Sujal and I am a passoniate
+                <div><span id="element"></span></div>
+            </div>
+        </section>
+        <div style="display: block; height: 60px;"></div>
+        <div style="display: flex; justify-content: center;"><a href="./index copy.html" class="res"><button
+                    type="button"  style="color: rgb(1, 16, 16); background-color: #04fe2e; width: 130px; height: 50px; border-radius: 15px; font-size: 1.5rem;">⇱Resume</button></a></div>
+        <div style="display: block; height: 90px;"></div>
+        <section class="secondsection">
+            <div class="techstack">
+                <div><span style="color: #5585b5;">Tech Stack </span>
+                    <div style="display: block; height: 40px;"></div>
+                </div>
+                <div style="font-size: 1.5rem;color:#5585b5;font-weight: 500; color: #5585b5;">Languages</div>
+                <div style="display: block; height: 30px;"></div>
+                <div class="lang">
+                    <div class="lan1" style="font-size: 1.5rem; padding-top: 7px;">
+                        <img src="https://shorturl.at/fiW13" alt="js"
+                            style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> JavaScript
+                    </div>
+                    <div class="lan2" style="font-size: 1.5rem; padding-top: 7px;"><img src="https://shorturl.at/dJLW8"
+                            alt="" style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> C++ </div>
+                    <div class="lan3" style="font-size: 1.5rem; padding-top: 7px;"><img src="https://shorturl.at/dkrC9"
+                            alt="" style="height: 40px; width: 40px; padding-top: 7px; padding-bottom: 7px;"> Python
+                    </div>
+                    <div class="lan4" style="font-size: 1.5rem; padding-top: 7px;"><img src="https://shorturl.at/kmq23"
+                            alt="" style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> TypeScript
+                    </div>
+                    <div class="lan5" style="font-size: 1.5rem; padding-top: 7px;"> <img src="https://rb.gy/1449r1"
+                            alt="" style="height: 40px; width: 50px; padding-top: 7px; padding-bottom: 7px;"> JAVA</div>
+                </div><br>
+                <div class="TnT" style="font-size: 1.5rem; color: #5585b5;">Tools and Technologies</div>
+                <div style="display: block; height: 30px;"></div>
+                <div class="tnt">
+                    <div class="t1" style="font-size: 1.5rem; padding-top: 7px;"><img src="https://rb.gy/b9wl8h" alt=""
+                            style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> React.js</div>
+                    <div class="t2" style="font-size: 1.5rem; padding-top: 7px;"><img src="https://rb.gy/rnon7e" alt=""
+                            style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> Node.js</div>
+                    <div class="t3" style="font-size: 1.5rem; padding-top: 7px;"><img src="https://rb.gy/dpm6de" alt=""
+                            style="height: 40px; width: 40px; padding-top: 7px; padding-bottom: 7px;"> Next.js</div>
+                    <div class="t4" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://w7.pngwing.com/pngs/212/722/png-transparent-web-development-express-js-javascript-software-framework-laravel-world-wide-web-purple-blue-text.png"
+                            alt="" style="height: 40px; width: 40px; padding-top: 7px; padding-bottom: 7px;">Express.js
+                    </div>
+                    <div class="t5" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png"
+                            alt="" style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> MongoDB
+                    </div>
+                </div>
+                <div style="display: block; height: 10px;"></div>
+                <div class="tnt2">
+                    <div class="t6" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://s3-alpha.figma.com/hub/file/697598809/ce5e0bb3-16b9-4d88-9bca-7d237fe725a8-cover.png"
+                            alt="" style="height: 40px; width: 60px; padding-top: 7px; padding-bottom: 7px;"> Figma
+                    </div>
+                    <div class="t7" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://1000logos.net/wp-content/uploads/2017/03/LINUX-LOGO.png" alt=""
+                            style="height: 40px; width: 40px; padding-top: 7px; padding-bottom: 7px;"> Linux</div>
+                    <div class="t8" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://e7.pngegg.com/pngimages/266/559/png-clipart-cat-stencil-social-media-github-computer-icons-logo-github-mammal-cat-like-mammal.png"
+                            alt="" style="height: 40px; width: 45px; padding-top: 7px; padding-bottom: 7px;"> Git</div>
+                    <div class="t9" style="font-size: 1.5rem; padding-top: 7px;"><img src="https://rb.gy/b9wl8h" alt=""
+                            style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> React Native
+                    </div>
+                    <div class="t10" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://w1.pngwing.com/pngs/705/41/png-transparent-cloud-logo-docker-docker-inc-computer-software-kubernetes-microsoft-azure-cloud-computing-text.png"
+                            alt="" style="height: 40px; width: 40px; padding-top: 7px; padding-bottom: 7px;"> Docker
+                    </div>
+                </div>
+                <div style="display: block; height: 10px;"></div>
+                <div class="tnt3">
+                    <div class="t11" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
+                            alt="" style="height: 40px; width: 45px; padding-top: 7px; padding-bottom: 7px;"> AWS</div>
+                </div>
+                <div style="display: block; height: 30px;"></div>
+                <div class="ik" style="font-size: 1.5rem; color: #5585b5;">Industry Knowledge</div>
+                <div style="display: block; height: 30px;"></div>
+                <div class="ikd">
+                    <div class="ik1" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://miro.medium.com/v2/resize:fit:300/0*goJuBKoyL-zZX4RB.png" alt=""
+                            style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> OOPS</div>
+                    <div class="ik2" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://e7.pngegg.com/pngimages/78/465/png-clipart-data-structures-and-algorithms-algorithms-data-structures-programs-computer-science-others-miscellaneous-computer-science-thumbnail.png"
+                            alt="" style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> Data
+                        Structures</div>
+                    <div class="ik3" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://cdn2.vectorstock.com/i/1000x1000/62/11/cloud-computing-logo-design-icon-concept-vector-24016211.jpg"
+                            alt="" style="height: 40px; width: 40px; padding-top: 7px; padding-bottom: 7px;"> Cloud
+                        Computing</div>
+                    <div class="ik4" style="font-size: 1.5rem; padding-top: 7px;"><img
+                            src="https://thetapacademy.com/wp-content/uploads/2022/10/full-stack-web-developer-1024x1024.jpg"
+                            alt="" style="height: 40px; width: 30px; padding-top: 7px; padding-bottom: 7px;"> Full Stack
+                        Development</div>
+                </div>
+            </div>
+        </section>
+        <div style="display: block; height: 150px;"></div>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['', 'Web Developer and Cloud Practitioner'],
+            typeSpeed: 20,
+        });
+    </script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</body>
+
+</html>
